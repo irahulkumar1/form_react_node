@@ -1,0 +1,46 @@
+.formData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.formData input {
+    width: 360px;
+    height: 26px;   
+    margin: 10px;
+    padding-left: 2px;
+    font-size: 15px;
+}
+            
+ .btn-grad {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+.detailpreview
+{    
+    /* display: flex; */
+    display:inline-table;
+    /* display: inline; */
+    margin: 10px;
+ }     
+
+.detailpreview table, th, td {
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
